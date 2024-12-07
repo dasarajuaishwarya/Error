@@ -198,6 +198,7 @@ By providing employees with a reliable and intuitive tool for managing their fin
 # Traceability links
 <Description of this section>
 ## Use Case Diagram Traceability
+  
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | [Expense Tracking](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Expense%20tracking.drawio.pdf) | Expense Tracking | FR5 |
@@ -206,6 +207,7 @@ By providing employees with a reliable and intuitive tool for managing their fin
 | [Transaction and Reporting](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Transaction%20and%20reporting.drawio.pdf) | Transaction and Reporting | NFR3, FR5 |
 
 ## Class Diagram Traceability
+
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
 | [Expense Tracker](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/class%20diagram.drawio.pdf) | NFR3, FR5 |
@@ -213,6 +215,7 @@ By providing employees with a reliable and intuitive tool for managing their fin
 | classPlayer | NFR3, FR5 |
 
 ## Activity Diagram Traceability
+
 <In this case, it makes more sense (I think, feel free to disagree) to link
 to the file and to those requirements impacted>
 | Artifact ID | Artifact Name | Requirement ID |
@@ -223,4 +226,4 @@ to the file and to those requirements impacted>
 
 # Software Artifacts
 <Describe the purpose of this section>
-* [Artifacts](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/tree/main/artifacts)
+[Artifacts](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/tree/main/artifacts)
