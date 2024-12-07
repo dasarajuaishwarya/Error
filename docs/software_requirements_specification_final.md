@@ -200,14 +200,15 @@ By providing employees with a reliable and intuitive tool for managing their fin
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
-| UseCase1 | Move Player | FR5 |
-| UseCase1 | Move Player | FR5 |
+| [Expense Tracking](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Expense%20tracking.drawio.pdf) | Expense Tracking | FR5 |
+| [Income Tracking](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Income%20Tracking.drawio.pdf) | Income Tracking | FR5 |
+| [User Authentication](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USE_CASE-%20User%20Authentication%20and%20settings.drawio.pdf) | User Authentication | FR5 |
+| [Transaction and Reporting](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Transaction%20and%20reporting.drawio.pdf) | Transaction and Reporting | NFR3, FR5 |
 
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
+| [Expense Tracker](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/class%20diagram.drawio.pdf) | NFR3, FR5 |
 | classPlayer | NFR3, FR5 |
 | classPlayer | NFR3, FR5 |
 
@@ -216,10 +217,10 @@ By providing employees with a reliable and intuitive tool for managing their fin
 to the file and to those requirements impacted>
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
+| [Expense Tracker Activity Diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/Personal%20Expense%20Tracker%20Activity%20diagram.drawio.pdf) | Expense Tracker | FR1-5, NFR2 |
 | <filename> | Handle Player Input | FR1-5, NFR2 |
 | <filename> | Handle Player Input | FR1-5, NFR2 |
 
 # Software Artifacts
-This is the link to previous artifacts
-* [Artifacts](https://github.com/AISHWARYA-D6581/GVSU-CIS-641-ANALYTICA/tree/main/artifacts)
+<Describe the purpose of this section>
+* [Artifacts](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/tree/main/artifacts)
