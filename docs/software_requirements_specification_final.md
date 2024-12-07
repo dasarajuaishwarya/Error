@@ -47,8 +47,8 @@ We will go through the functional and non functional requirements of the project
 | FR22 | The system shall allow users to update their profile name. |
 | FR23 | The system shall allow users to update their password. |
 | FR24 | The system shall authenticate with the confirm password |
-| FR25 | The system shall allow users to upload and update their profile photo. |
-| FR26 | The system shall allow users to set their currency preferences. |
+| FR25 | The system shall allow users to upload and update their profile photo.(TBD) |
+| FR26 | The system shall allow users to set their currency preferences.(TBD) |
 
 
 ## Non-Functional Requirements
@@ -56,10 +56,10 @@ We will go through the functional and non functional requirements of the project
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR1 | The system shall display expenses clearly with intuitive navigation. |
-| NFR7 | The interface shall allow users to complete primary actions (e.g. logging an expense) within two steps. |
-| NFR8 | The system shall maintain a consistent design language across all features.  |
-| NFR9 | Error messages shall provide clear feedback without technical jargon. |
-| NFR10 | The system shall allow users to navigate easily between pages. |
+| NFR2 | The interface shall allow users to complete primary actions (e.g. logging an expense) within two steps. |
+| NFR3 | The system shall maintain a consistent design language across all features.  |
+| NFR4 | Error messages shall provide clear feedback without technical jargon. |
+| NFR5 | The system shall allow users to navigate easily between pages. |
 
 ### Performance and Scalability
 | ID | Requirement |
@@ -73,29 +73,29 @@ We will go through the functional and non functional requirements of the project
 ### Security
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR6 | The system shall encrypt all user data. |
-| NFR7 | The system shall enforce strong password requirement for account security. |
-| NFR8 | The system shall logout users after a 1hr of inactivity.  |
-| NFR9 | Passwords shall be hashed before storing them in the database.  |
-| NFR10 | The system shall implement basic protection against common security risks. |
+| NFR11 | The system shall encrypt all user data. |
+| NFR12 | The system shall enforce strong password requirement for account security. |
+| NFR13 | The system shall logout users after a 1hr of inactivity.  |
+| NFR14 | Passwords shall be hashed before storing them in the database.  |
+| NFR15 | The system shall implement basic protection against common security risks. |
 
 ### Data Privacy and Compliance
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR6 | The system shall ensure that no unauthorized users should be able to bypass authentication. |
-| NFR7 | The system shall ensure that sensitive user data is accessible only to authorized staff. |
-| NFR8 | The system shall include a privacy policy to explain how user data is handled.  |
-| NFR9 | The system shall comply with basic privacy regulations.  |
-| NFR10 | The system shall log all user account actions for audit purposes. |
+| NFR16 | The system shall ensure that no unauthorized users should be able to bypass authentication. |
+| NFR17 | The system shall ensure that sensitive user data is accessible only to authorized staff. |
+| NFR18 | The system shall include a privacy policy to explain how user data is handled.  |
+| NFR19 | The system shall comply with basic privacy regulations.  |
+| NFR20 | The system shall log all user account actions for audit purposes. |
 
 ### Maintenance
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR6 | The authentication system must be available 99.9% of the time. |
-| NFR7 | All user data shall be backed up daily and stored securely. |
-| NFR8 | Regular updates shall address bugs and improve user experience. |
-| NFR9 | The system shall be notified of updates within the application. |
-| NFR10 | Logs shall monitor system performance for issue diagnosis. |
+| NFR21 | The authentication system must be available 99.9% of the time. |
+| NFR22 | All user data shall be backed up daily and stored securely. |
+| NFR23 | Regular updates shall address bugs and improve user experience. |
+| NFR24 | The system shall be notified of updates within the application. |
+| NFR25 | Logs shall monitor system performance for issue diagnosis. |
 
 
 # Change management plan
@@ -196,31 +196,35 @@ The subscription model eliminates the need for costly in-house infrastructure.
 By providing employees with a reliable and intuitive tool for managing their finances, the company can foster a culture of trust, support, and efficiency.
 
 # Traceability links
-<Description of this section>
+These show the appropriate link between the artifacts use case diagrams, class diagrams and activity diagrams with the functional and non-functional requirement in order for better understanding of relation between Artifacts and requirements.
+
 ## Use Case Diagram Traceability
   
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | [Expense Tracking](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Expense%20tracking.drawio.pdf) | Expense Tracking | FR12, FR13, FR14, FR15, FR16 |
 | [Income Tracking](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Income%20Tracking.drawio.pdf) | Income Tracking | FR7, FR8, FR9, FR10, FR11 |
-| [User Authentication](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USE_CASE-%20User%20Authentication%20and%20settings.drawio.pdf) | User Authentication | FR1, FR2, FR3, FR4, FR5, FR6, FR22, FR23, FR24 |
+| [User Authentication](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USE_CASE-%20User%20Authentication%20and%20settings.drawio.pdf) | User Authentication | FR1, FR2, FR3, FR4, FR5, FR6, FR22, FR23, FR24, NFR12, NFR13, NFR14, NFR16 |
 | [Transaction and Reporting](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/USECASE%20Transaction%20and%20reporting.drawio.pdf) | Transaction and Reporting | FR17, FR18, FR19, FR20, FR21 |
 
 ## Class Diagram Traceability
 
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| [Expense Tracker](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/class%20diagram.drawio.pdf) | NFR3, FR5 |
+| [Expense Tracker](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/class%20diagram.drawio.pdf) | FR1-24, NFR4, NFR20, NFR17, NFR21 |
 
 ## Activity Diagram Traceability
 
-<In this case, it makes more sense (I think, feel free to disagree) to link
-to the file and to those requirements impacted>
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| [Expense Tracker Activity Diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/Personal%20Expense%20Tracker%20Activity%20diagram.drawio.pdf) | Expense Tracker | FR1-5, NFR2 |
+| [Expense Tracker Activity Diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/Personal%20Expense%20Tracker%20Activity%20diagram.drawio.pdf) | Expense Tracker | FR1-24, NFR1, NFR4, NFR 14, NFR17, NFR22 |
 
 # Software Artifacts
-<Describe the purpose of this section>
+Here are the links previous artifacts developed
   
-[Artifacts](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/tree/main/artifacts)
+* [sequence diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/sequence%20diagram.drawio.pdf)
+* [Activity diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/Budget%20and%20Reporting%20Activity%20Diagram.drawio.pdf)
+* [Usecase diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/Budgeting%20and%20reporting%20use%20case.drawio.pdf)
+* [object diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/OBJECT%20DIAGRAM%20image.drawio.png)
+* [State diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/State%20diagram.drawio.pdf)
+* [Windows Navigation diagram](https://github.com/dasarajuaishwarya/GVSU-CIS641-ANALYTICA/blob/main/artifacts/WND.drawio.pdf)
