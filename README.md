@@ -8,6 +8,7 @@ This project empowers individuals to make informed financial decisions and maint
 [Aishwarya Dasaraju](https://dasarajuaishwarya.github.io/)
 
 ## Run Instructions
+- Code is available in src folder
 - Clone the repository
 - Install the dependencies using npm install
 - For backend to run use node app.js
